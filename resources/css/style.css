@@ -46,17 +46,21 @@ html {
   header .content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 1.875rem;
+    height: 2.83rem;
   }
   
   header .logo {
     color: #4a4a4a;
     font-family: roboto;
     font-size: 1.5rem;
+    text-decoration: none;
   }
   
   header nav ul {
     display: flex;
+    list-style-type: none;
   }
   
   nav li {
@@ -68,6 +72,8 @@ html {
     line-height: 1.6;
     font-size: 1rem;
     color: #4a4a4a;
+    font-family: roboto;
+    text-decoration: none;
   }
   
   header .icon {
@@ -119,6 +125,7 @@ html {
     justify-content: flex-start;
     align-items: flex-start;
     height: 43.5rem;
+    background-image: url("../images/banner-landingpage.jpg");
   }
   
   #sign-up-cta {
